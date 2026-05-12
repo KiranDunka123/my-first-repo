@@ -14,7 +14,7 @@ jobs:
         run: echo "Login page working"
 
       - name: Checking Payment Module
-        run: echo "Payment module working"
+        run: exit 1
 
       - name: Final Status
         run: echo "All checks completed successfully"
